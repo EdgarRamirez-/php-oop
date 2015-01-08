@@ -130,3 +130,54 @@ $bearings1­>lastName = “Aces”;
 print “The bearing’s name is {$bearings1­>getName()}.”;
 
 //The bearing’s name is Lucky Aces.
+
+class Board {
+public $brand;
+public $size;
+public $price;
+
+         function __construct($title, $brand, $size, $price) {
+         $this­>firstName = $brand;
+         $this­>lastName = $size;
+         $this­>breed = $price;
+         } 
+
+         function getName() {
+         return “{$this­>firstName}” .
+         “{$this­>lastName}”;
+         }
+}
+
+class Trunks {
+public $brand;
+public $size;
+public $price;
+
+         function __construct($title, $brand, $size, $price) {
+         $this­>firstName = $brand;
+         $this­>lastName = $size;
+         $this­>breed = $price;
+         } 
+
+         function getName() {
+         return “{$this­>firstName}” .
+         “{$this­>lastName}”;
+         }
+}
+
+class Bearings {
+public $brand;
+public $size;
+public $price;
+
+         function __construct($title, $brand, $size, $price) {
+         $this­>firstName = $brand;
+         $this­>lastName = $size;
+         $this­>breed = $price;
+         } 
+
+         function getName() {
+         return “{$this­>firstName}” .
+         “{$this­>lastName}”;
+         }
+}
